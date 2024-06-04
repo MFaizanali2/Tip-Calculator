@@ -17,13 +17,15 @@
         <h1>Tip Calcultor</h1>
         <p>Enter the bill amount and tip percentage to calculate the total.</p>
         <div id="input">
-            <label for="#">Bill amount:</label>
+            <label for="bill">Bill amount:</label>
             <input type="text" id="bill" placeholder="Enter your Bill">
-            <label for="#">Tip percentage:</label>
+            <label for="tip">Tip percentage:</label>
             <input type="text" id="tip" placeholder="Enter your Tip">
         </div>
         <button onclick="Calculate();">Calculate</button>
-        <h6 id="total"></h6>
+        <div id="tip-total">
+        <label for="total">Total:</label><span id="total"></span>
+        </div>
     </div>
 
 
