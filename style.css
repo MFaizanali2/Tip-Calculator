@@ -77,3 +77,6 @@ body{
     margin-left: 30px;
     margin-top: 15px;
 }
+#tip-total span{
+    color: #000;
+}
