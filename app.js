@@ -7,6 +7,6 @@ function Calculate(){
     let total = document.getElementById("total");
 
     let sum = billamount * (1 + tipamount / 100);
-    total.innerText = `  $${sum}`
+    total.innerText = `  $${sum}.00`
 
 }
